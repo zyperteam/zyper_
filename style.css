@@ -1,0 +1,375 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff; /* White text for black background */
+  background-color: #000000; /* Black background */
+  margin: 0;
+  padding: 0;
+  font-size: 1rem; /* Base font size */
+  line-height: 1.6; /* Improves readability */
+}
+
+/* Header */
+header {
+  background: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  padding: 10px 20px; /* Reduced padding for mobile */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Ensures header wraps on small screens */
+}
+
+header .logo img {
+  height: 30px; /* Smaller logo for mobile */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Ensures nav items wrap on small screens */
+}
+
+nav ul li {
+  margin-left: 10px; /* Reduced margin for mobile */
+}
+
+nav ul li a {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem; /* Smaller font size for mobile */
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #008B8B; /* Dark Cyan on hover */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px; /* Reduced padding for mobile */
+  background: #000000; /* Black background */
+  animation: fadeIn 1s ease-out; /* Fade-in animation */
+}
+
+.hero h1 {
+  font-size: 2rem; /* Smaller font size for mobile */
+  color: #008B8B; /* Dark Cyan */
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1rem; /* Smaller font size for mobile */
+  color: #ffffff; /* White text */
+  margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+  display: inline-block;
+  padding: 8px 16px; /* Smaller padding for mobile */
+  margin: 5px; /* Reduced margin for mobile */
+  background: #008B8B; /* Dark Cyan */
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem; /* Smaller font size for mobile */
+  transition: all 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+  background: #ffffff; /* White on hover */
+  color: #008B8B; /* Dark Cyan text */
+  transform: translateY(-5px); /* Lift effect */
+}
+
+/* About Section */
+.about {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background: #000000; /* Black background */
+  animation: fadeIn 1s ease-out; /* Fade-in animation */
+}
+
+.about h2 {
+  font-size: 2rem; /* Smaller font size for mobile */
+  color: #008B8B; /* Dark Cyan */
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1rem; /* Smaller font size for mobile */
+  color: #ffffff; /* White text */
+  line-height: 1.8;
+}
+
+/* Resources Section */
+.resources {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background: #000000; /* Black background */
+  animation: fadeIn 1s ease-out; /* Fade-in animation */
+}
+
+.resources h2 {
+  font-size: 2rem; /* Smaller font size for mobile */
+  color: #008B8B; /* Dark Cyan */
+  margin-bottom: 20px;
+}
+
+.resources p {
+  font-size: 1rem; /* Smaller font size for mobile */
+  color: #ffffff; /* White text */
+  margin-bottom: 30px;
+}
+
+.download-links .btn {
+  display: inline-block;
+  padding: 8px 16px; /* Smaller padding for mobile */
+  margin: 5px; /* Reduced margin for mobile */
+  background: #008B8B; /* Dark Cyan */
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem; /* Smaller font size for mobile */
+  transition: all 0.3s ease;
+}
+
+.download-links .btn:hover {
+  background: #ffffff; /* White on hover */
+  color: #008B8B; /* Dark Cyan text */
+  transform: translateY(-5px); /* Lift effect */
+}
+
+/* Contact Section */
+.contact {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background: #000000; /* Black background */
+  animation: fadeIn 1s ease-out; /* Fade-in animation */
+}
+.contact h2 {
+    font-size: 2rem; /* Smaller font size for mobile */
+    color: #008B8B; /* Dark Cyan */
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 1rem; /* Smaller font size for mobile */
+    color: #ffffff; /* White text */
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    background: #111111; /* Slightly lighter black for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #008B8B; /* Dark Cyan */
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #008B8B; /* Dark Cyan border */
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #000000; /* Black background */
+    color: #ffffff; /* White text */
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .contact-form .btn {
+    background: #008B8B; /* Dark Cyan */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-form .btn:hover {
+    background: #ffffff; /* White on hover */
+    color: #008B8B; /* Dark Cyan text */
+    transform: translateY(-5px); /* Lift effect */
+  }
+  
+  .contact-details {
+    margin-top: 40px;
+  }
+  
+  .contact-details h3 {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+    color: #008B8B; /* Dark Cyan */
+    margin-bottom: 15px;
+  }
+  
+  .contact-details p {
+    font-size: 1rem; /* Smaller font size for mobile */
+    color: #ffffff; /* White text */
+    margin-bottom: 10px;
+  }
+  
+  .contact-details .social-links a {
+    color: #008B8B; /* Dark Cyan */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-details .social-links a:hover {
+    color: #ffffff; /* White on hover */
+  }
+  
+  /* Blog Section */
+  .blog {
+    max-width: 100%; /* Full width on mobile */
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background: #000000; /* Black background */
+    animation: fadeIn 1s ease-out; /* Fade-in animation */
+  }
+  
+  .blog h2 {
+    font-size: 1.8rem; /* Smaller font size for mobile */
+    color: #008B8B; /* Dark Cyan */
+  }
+  
+  .blog-posts {
+    display: flex;
+    flex-direction: column; /* Stack posts vertically on mobile */
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .blog-post {
+    background: #111111; /* Slightly lighter black for contrast */
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%; /* Full width on mobile */
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .blog-post:hover {
+    transform: translateY(-5px); /* Smaller lift effect on mobile */
+  }
+  
+  .blog-post h3 {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+    color: #008B8B; /* Dark Cyan */
+  }
+  
+  .blog-post p {
+    font-size: 0.9rem; /* Smaller font size for mobile */
+    color: #ffffff; /* White text */
+  }
+  
+  .blog-post a {
+    color: #008B8B; /* Dark Cyan */
+    text-decoration: none;
+  }
+  
+  .blog-post a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px; /* Reduced padding for mobile */
+    background: #000000; /* Black background */
+    color: #ffffff; /* White text */
+  }
+  
+  footer .social-links a {
+    color: #ffffff; /* White text */
+    margin: 0 5px; /* Reduced margin for mobile */
+    text-decoration: none;
+    font-size: 0.9rem; /* Smaller font size for mobile */
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-links a:hover {
+    color: #008B8B; /* Dark Cyan on hover */
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Media Queries for Mobile Devices */
+  @media (max-width: 768px) {
+    /* Adjust header for mobile */
+    header {
+      padding: 10px;
+    }
+  
+    header .logo img {
+      height: 25px; /* Smaller logo for mobile */
+    }
+  
+    nav ul li a {
+      font-size: 0.8rem; /* Smaller font size for mobile */
+    }
+  
+    /* Adjust hero section for mobile */
+    .hero {
+      padding: 30px 10px;
+    }
+  
+    .hero h1 {
+      font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+  
+    .hero p {
+      font-size: 0.9rem; /* Smaller font size for mobile */
+    }
+    .cta-buttons .btn {
+        padding: 6px 12px; /* Smaller padding for mobile */
+        font-size: 0.8rem; /* Smaller font size for mobile */
+      }
+    
+      /* Adjust footer for mobile */
+      footer {
+        padding: 10px;
+      }
+    
+      footer .social-links a {
+        font-size: 0.8rem; /* Smaller font size for mobile*/
+      }
+    }
